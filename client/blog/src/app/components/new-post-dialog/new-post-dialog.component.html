@@ -1,0 +1,10 @@
+<div mat-dialog-content>
+    <mat-form-field class="full-width">
+        <textarea matInput cdkTextareaAutosize cdkAutosizeMinRows="5"
+            cdkAutosizeMaxRows="5" placeholder="Что нового?" ></textarea>
+    </mat-form-field>
+</div>
+<div mat-dialog-actions>
+    <!--   <button mat-button (click)="onNoClick()">Закрыть</button>
+ --> <button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>Создать</button>
+</div>

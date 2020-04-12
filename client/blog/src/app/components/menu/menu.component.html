@@ -1,0 +1,15 @@
+<div class="sidebar">
+    <a class="active" href="#home">
+        <fa-icon [icon]="faBlog"></fa-icon>
+        <span>Лента</span>
+    </a>
+    <a href="#news">
+        <fa-icon [icon]="faUser"></fa-icon>
+        <span>Профиль</span>
+    </a>
+
+    <a class="sidebar_item__main" (click)="onNewPostClicked()">
+        <fa-icon [icon]="faPlusCircle"></fa-icon>
+        <span>Новый пост</span>
+    </a>
+</div>
